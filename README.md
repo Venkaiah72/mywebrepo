@@ -1,12 +1,12 @@
 # Selenium Automation Demo for OrangeHRM
 
 ## Overview
-This project demonstrates automated testing of OrangeHRM using Selenium WebDriver with Java. It includes data-driven testing using CSV files.
+This project demonstrates automated testing of OrangeHRM using Selenium WebDriver with Java. It includes data-driven testing.
 
 ## Requirements
 - JDK 8 or higher
 - Maven
-- Chrome WebDriver (place in PATH or specify in BaseTest.java)
+- Chrome WebDriver/ Any driver you want you've to initialize (@Optional"chrome") to execute in required browser
 
 ## Project Structure
 - `src/test/java/com/example/tests`: Test classes
